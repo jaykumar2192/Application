@@ -22,22 +22,37 @@ Responsibilities:
 1) Seller can do the following operations : /seller
 
 POST /createSeller      : Create seller
+
 GET /getSeller          : Get all sellers
+
 POST /addProduct        : Add a product
+
 GET /getProducts        : Get all products
+
 GET /getAllCategories   : Get all categories
+
 POST /createCategory    : Create a new category
+
+____________________________________________________________________________________
 
 2) User can do the following operations :  /user
 
 GET /getProducts          : To get all products information
+
 GET /getProductsByName    : To get the products by name
+
 POST /addToCart           : Add product to the cart
+
 GET /getCartByUserId      : Get user cart details
+
 GET /emptyCart            : Empty user cart based on user id
+
 GET /processOrder         : Process user order
+
 GET /ordersByUserId       : Get order by user id
+
 POST /createUser          : Create new user
+
 GET /getAllCategories     : Get all categories
 
 ________________________________________________________________________________________________________________________________
