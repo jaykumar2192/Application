@@ -62,13 +62,21 @@ Working:
 User: A user can check for the products information, then based upon the choice user add the product to its cart and an entry will be created in UserCart table. A user can also empty the cart based upon the choice.
 
 If the user wanted to process the order, the user can make a call to /processOrder operation and this involved various stages:
+
 a) All the products added in the user cart gets fetched.
+
 b) Based on the quantity of the product a user wanted to buy, it gets validated by the available quantity of the product.
+
 c) If the quantity is not available user gets a message for the products which are out of stock.
+
 d) Else the order processing moves to the next step
+
 e) New entry are created in the order table with all the details
+
 f) Also, the no of quantity of products available gets updated once the user order is successfull.
+
 g) At last user cart gets cleared.
+
 h) Upon successfull completion of all the steps the invoice gets returned to the user.
 
 Seller: A seller can add new products, categories into the products, categories table. A seller can also check all the products and based on that a seller can add more products to the database.
